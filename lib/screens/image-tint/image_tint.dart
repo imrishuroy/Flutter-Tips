@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-// tint - a shade or variety of a colour
+// tint - a shade or variety of a colour ( image Filer )
 
 enum OverlayColor { brown, orange, yellow, green, blue }
 
@@ -102,9 +102,7 @@ class _ImageTintState extends State<ImageTint> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Tinting Images in Flutter'),
-      ),
+      appBar: AppBar(title: const Text('Tinting Images in Flutter')),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
